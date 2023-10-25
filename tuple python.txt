@@ -1,0 +1,17 @@
+tuple1 =()
+tuple2 =()
+l1=list(tuple1)
+l2=list(tuple2)
+n = int(input("Enter the size of the tuple: \n"))
+print("Enter the elements for tuple 1\n")
+for i in range(0,n):
+    l1.append(input())
+print("Enter elemnets for tuple 2\n")
+for i in range(0,n):
+    l2.append(input())
+tuple1=tuple(l1)
+tuple2=tuple(l2)
+print("Elements of tuple 1 are: ",tuple1)
+print("Elements of tuple 2 are: ",tuple2)
+maxi=(max(tuple1),max(tuple2))
+print("The maximum elements of tuple 1 and 2 are: ",maxi)
